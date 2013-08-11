@@ -49,7 +49,7 @@ $user = JFactory::getUser();
 // Adjusting content width
 if ($this->countModules('position-7') && $this->countModules('position-8'))
 {
-	$span = "span7";
+	$span = "span6";
 }
 elseif ($this->countModules('position-7') && !$this->countModules('position-8'))
 {
@@ -186,7 +186,7 @@ else
 					<!-- End Content -->
 				</div>
 				<?php if ($this->countModules('position-7')) : ?>
-				<div id="aside" class="span2">
+				<div id="aside" class="span3">
 					<!-- Begin Right Sidebar -->
 					<jdoc:include type="modules" name="position-7" style="well" />
 					<!-- End Right Sidebar -->
