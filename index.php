@@ -53,7 +53,7 @@ if ($this->countModules('position-7') && $this->countModules('position-8'))
 }
 elseif ($this->countModules('position-7') && !$this->countModules('position-8'))
 {
-	$span = "span9";
+	$span = "span10";
 }
 elseif (!$this->countModules('position-7') && $this->countModules('position-8'))
 {
